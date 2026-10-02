@@ -73,11 +73,12 @@ public class LaunchApp {
                             break;
 
                         case 5:
-                            // DELETE: Delete a student's record using their Id
+                            // DELETE: Delete a student's record using their ID
                             int deleteId = readInt(sc, "Enter student Id: ");
 
                             dao.deleteStudent(deleteId);
                             break;
+
 
                         case 6:
                             System.out.println("Exiting Student Management System");
